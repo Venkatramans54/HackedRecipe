@@ -1,0 +1,20 @@
+
+
+<div class="container">        
+    <div class="row">
+        <div class="col-6">
+            <img class="image" [src]="recipeItem.image">
+            <h4>Recipe Name:</h4>
+            <h5>{{recipeItem.name}}</h5>
+        </div>
+        <div class="col-6">
+            <h4>Description:</h4>
+            <h5>{{recipeItem.description}}</h5>
+            <h5>Price:</h5>
+            <h6>{{recipeItem.price  | currency: 'USD'}}</h6>
+            <textarea rows="5" class="text-area"></textarea>
+            <br>
+            <button type="submit" class="btn-primary">Add Comment</button>
+        </div>
+    </div>       
+</div>

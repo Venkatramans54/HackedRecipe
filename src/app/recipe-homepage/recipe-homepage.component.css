@@ -1,0 +1,21 @@
+.container{
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.navbar-brand{
+    color: white;
+}
+.card-header{
+    height: 50px;
+    text-align: right
+}
+.fa-arrow-left{
+    cursor: pointer;
+}
+.btn-img{
+    margin-left: 5px;
+    border: white;
+}
+
+

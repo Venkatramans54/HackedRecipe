@@ -1,0 +1,12 @@
+.container{
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.image{
+    width:400px;
+    height:400px
+}
+textarea{
+    align-items: center;
+}
